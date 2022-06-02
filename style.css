@@ -11,7 +11,7 @@ body{
   display: flex;
   padding: 0 10px;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("Bilder/background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("images/background.png");
   align-items: center;
   justify-content: center;
 }
