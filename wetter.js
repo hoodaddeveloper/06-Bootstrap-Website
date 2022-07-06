@@ -3,11 +3,12 @@ let spp = document.querySelector('#app')
 async function getWeather(city) {
   let response = await fetch(
     `https://developers.parsijoo.ir/web-service/v1/weather/?type=search&city=${تهران}`,)
-      {
-        headers: {
-          "api-key"; "862da2ec39f540ef8b8663c2d6126171"
-          }
+    {
+      headers: {
+      "api-key"; "862da2ec39f540ef8b8663c2d6126171"
       }
+    }
+  
   let data = await response.json()
   let now_temp = data.result.hava.summary.temp
   let today = data.result.hava.dayList[0]
