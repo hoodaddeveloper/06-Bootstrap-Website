@@ -1,14 +1,14 @@
 .btn-primary,
 .btn-primary:visited,
 .btn-primary:focus {
-  background-color: #7a0dfd;
   border-color: #8c2cff;
+  background-color: #7a0dfd;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-  background-color: #5e13b9;
   border-color: #6917ca;
+  background-color: #5e13b9;
 }
 
 .btn-primary:active:focus,
@@ -30,6 +30,6 @@
 
 .alert-primary {
   color: #5700c1;
-  background-color: #decfff;
   border-color: #d5abff;
+  background-color: #decfff;
 }
