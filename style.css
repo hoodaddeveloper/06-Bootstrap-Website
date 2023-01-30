@@ -120,8 +120,8 @@ form .message textarea::-webkit-scrollbar {
 }
 
 form .button-area {
-  margin: 25px 0;
   display: flex;
+  margin: 25px 0;
   align-items: center;
 }
 
